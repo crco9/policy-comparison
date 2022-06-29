@@ -10,6 +10,8 @@ Requiring a programming language is a serious learning curve which generates lar
 Mutation ability is in nascent stage
 Policy is complex, often lengthy, and requires multiple documents to implement
 
+## see more [a relative link](opa/readme.md)
+
 
 
 # Kyverno Advantages
@@ -25,6 +27,8 @@ Quick time to value and high degree of flexibility
 Highly complex policy may not be possible since no programming language is exposed
 Young, still largely unproven due to lower establishment
 
+## see more [a relative link](kyverno/readme.md)
+
 
 
 # JsPolicy Advantages
@@ -34,8 +38,8 @@ JavaScript is made for handling and manipulating JSON objects
 Simple yet Powerful, Create a functional webhook with a single line of JavaScript or write your own fully blown custom StatefulSet controller in TypeScript with jsPolicy.
 Share entire policies or reusable functions via npmjs or via your private registry
 
-
-
 # JsPolicy Disadvantages
 
 Young, not very large community
+
+## see more [a relative link](jspolicy/readme.md)
