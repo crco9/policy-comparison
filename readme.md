@@ -10,7 +10,7 @@ Requiring a programming language is a serious learning curve which generates lar
 Mutation ability is in nascent stage
 Policy is complex, often lengthy, and requires multiple documents to implement
 
-## see more [a relative link](opa/readme.md)
+## see more [here](opa/readme.md)
 
 
 
@@ -27,7 +27,7 @@ Quick time to value and high degree of flexibility
 Highly complex policy may not be possible since no programming language is exposed
 Young, still largely unproven due to lower establishment
 
-## see more [a relative link](kyverno/readme.md)
+## see more [here](kyverno/readme.md)
 
 
 
@@ -42,4 +42,4 @@ Share entire policies or reusable functions via npmjs or via your private regist
 
 Young, not very large community
 
-## see more [a relative link](jspolicy/readme.md)
+## see more [here](jspolicy/readme.md)
