@@ -1,0 +1,17 @@
+apiVersion: policy.jspolicy.com/v1beta1
+kind: JsPolicy
+metadata:
+  name: "deny-privileged-pods.resource.example"
+spec:
+  operations: ["CREATE"]
+  resources: ["pods"]
+  javascript: |
+    const containers = request.object.spec?.containers || [];
+    const initContainers = request.object.spec?.initContainers || [];
+
+    [...containers, ...initContainers].forEach(container => {
+        if (container.securityContext?.privileged) {
+            // deny("spec.containers[*].securityContext.privileged is not allowed")
+            deny("Privileged containers are not allowed")
+        }
+    })
